@@ -9,7 +9,7 @@ module.exports = () => async (message) => {
         [Support Discord](https://discord.gg/SYtrv9m 'optional hovertext')
         [Learn how to use it](https://github.com/samRBLX/moblox-bot/blob/master/README.md 'optional hovertext')`,
     })
-    .setFooter("moblox by imacodr#0930")
+    .setFooter("Modelmail by Clutch_ed#7990")
     .setTimestamp()
     .setThumbnail(message.author.avatarURL());
   await message.author.send("Here are some useful links!", embed);
